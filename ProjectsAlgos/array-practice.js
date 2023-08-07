@@ -33,4 +33,32 @@
 // console.log(num2);
 
 
+// //Adding to Array
+// var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];
+// user.push("jello");
+// console.log(user);    // ["Dwight", "Schrute", "beetsbears@battlestar.com", "jello"]
 
+// //Removing from Array
+// var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];
+// user.pop();
+// console.log(user);    // ["Dwight", "Schrute"]
+
+// //Accessing or Updating array
+// var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];
+// console.log(user[0]);    // reading the value -- OUTPUT: Dwight
+// user[1] = "Martin";    // updating the value
+// console.log(user);    // ["Dwight", "Martin", "beetsbears@battlestar.com"]
+
+// //.length
+// var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];
+// console.log(user.length);    // 3
+// user.pop();
+// console.log(user.length);    // 2
+
+
+//Loop Practice
+var arr = [2,4,6,8,10];
+for (var i = 0; i < arr.length; i = i + 1) {        
+    console.log(i);             // prints the index       
+    console.log(arr[i]);        // prints the array value at that index
+}
